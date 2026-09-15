@@ -29,7 +29,11 @@ interface HistoricalResultTable {
 
 const SAVED_TABLE_LIMIT = 8
 const FIELD_LIBRARY_LIMIT = 12
-const prompts = ["查询本月各地区销售额", "按客户等级统计本月销售额", "对比本月各地区销售额和销售目标"]
+const prompts = [
+  "查询2026年每个月的日活用户数",
+  "按渠道统计广告消耗和转化数",
+  "按内容分类统计播放量和互动数",
+]
 const input = ref("")
 const loading = ref(false)
 const pendingQuery = ref("")
